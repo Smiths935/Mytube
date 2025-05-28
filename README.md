@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+🎬 MyTube – YouTube-like Video Streaming App
+MyTube est une application mobile inspirée de YouTube, conçue avec React Native. Elle permet aux utilisateurs de visionner, rechercher et interagir avec des vidéos en streaming dans une interface fluide et moderne.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+✨ Fonctionnalités principales
+🔍 Recherche de vidéos par mot-clé
 
-## Get started
+📺 Lecture de vidéos avec un lecteur intégré
 
-1. Install dependencies
+🧭 Navigation fluide entre les pages (accueil, vidéo, profil…)
 
-   ```bash
-   npm install
-   ```
+❤️ Système de likes (simulé/local)
 
-2. Start the app
+📝 Commentaires (mock ou backend intégré si applicable)
 
-   ```bash
-   npx expo start
-   ```
+🌙 Thème sombre/clair
 
-In the output, you'll find options to open the app in a
+🔁 Chargement dynamique de contenu (scroll infini ou pagination)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🛠️ Technologies utilisées
+React Native – Interface mobile
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Expo – Outils de développement
 
-## Get a fresh project
+React Navigation – Gestion de la navigation
 
-When you're ready, run:
+API YouTube (ou mock) – Récupération des vidéos (optionnel)
 
-```bash
-npm run reset-project
-```
+AsyncStorage / Redux – Gestion locale des données (likes, historique…)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🚀 Démarrage rapide
+bash
+Copier
+Modifier
+git clone https://github.com/tonpseudo/mytube.git
+cd mytube
+npm install
+npx expo start
+📱 Aperçu
+(Ajoute ici des captures d’écran de ton app si possible, dans un dossier /screenshots)
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📄 Licence
+Ce projet est open-source sous licence MIT.
